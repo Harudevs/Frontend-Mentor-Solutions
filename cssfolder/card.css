@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+.nftinfobox {
+    width: 180px;
+    height: 130px;
+    background-color: hsl(216, 50%, 16%);
+    border: 15px solid hsl(216, 50%, 16%);
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+}
+.nftimg img:first-child {
+    width: 180px;
+    border: 15px solid hsl(216, 50%, 16%);
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+}
+.nft {
+    display: grid;
+    place-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.nftname {
+    font-size: 14px;
+    color: white;
+    margin-top: calc(-16px);
+    font-weight: 400;
+}
+.nftdescription {
+    font-size: 11px;
+    color: #8bacda;
+    margin-top: calc(-4px);
+    font-weight: 200;
+}
+.ethimg img:first-child {
+    width: 8px;
+    margin-top: 5px;
+    position: absolute;
+}
+.nftprice {
+    font-size: 10px;
+    margin-left: 13px;
+    margin-top: 5.3px;
+    position: absolute;
+    color: hsl(178, 100%, 50%);
+    font-weight: ;
+}
+.clock img:first-child {
+    width: 10px;
+    position: absolute;
+    margin-top: 6.8px;
+    margin-left: 7.65rem;
+}
+.duration {
+    font-size: 10px;
+    position: absolute;
+    margin-top: 5.3px;
+    margin-left: 8.45rem;
+    color: #8bacda;
+    font-weight: 300;
+}
+.author img:first-child {
+    width: 18px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 51px;
+}
+.creator {
+    font-size: 9.2px;
+    color: #7693bd;
+    position: absolute;
+    margin-top: calc(-15px);
+    margin-left: 1.7rem;
+}
+.authorname {
+    color: white;
+}
+.line{
+    height: .1px;
+    width: 180px;
+    background-color: #7694bd42;
+    position: absolute;
+    margin-top: 38px;
+}
+
